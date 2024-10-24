@@ -17,10 +17,10 @@ public interface AutenticacionClient {
 
 
 
-    @PostMapping("/")
+    @PostMapping("/login")
     ResponseEntity<LoginResponseDTO> login(@RequestBody LoginRequestDTO loginRequestDTO);
 
-    @GetMapping("/")
+    @GetMapping("/get-integrantes")
     ResponseEntity<List<IntegrantesResponseDTO>> listarIntegrantes();
 
 
