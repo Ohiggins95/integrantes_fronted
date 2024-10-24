@@ -12,7 +12,7 @@ import pe.edu.cibertec.fronted_integrantes.dto.LoginResponseDTO;
 
 import java.util.List;
 
-@FeignClient(name = "autenticacion", url = "http://localhost:8081/autenticacion", configuration = AutenticacionFeingConfig.class)
+@FeignClient(name = "autenticacion", url = "https://backend-integrantes.azurewebsites.net", configuration = AutenticacionFeingConfig.class)
 public interface AutenticacionClient {
 
 
